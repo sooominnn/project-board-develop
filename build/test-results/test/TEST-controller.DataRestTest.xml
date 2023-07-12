@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Data REST - API 테스트" tests="1" skipped="1" failures="0" errors="0" timestamp="2023-07-12T14:55:27" hostname="atnps-MacBook-Pro.local" time="0.0">
+  <properties/>
+  <testcase name="test()" classname="controller.DataRestTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

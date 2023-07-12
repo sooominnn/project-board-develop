@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="View 컨트롤러 - 게시글" tests="4" skipped="3" failures="0" errors="0" timestamp="2023-07-12T14:55:27" hostname="atnps-MacBook-Pro.local" time="0.117">
+  <properties/>
+  <testcase name="[view][GET] 게시글 검색 페이지 - 정상 호출" classname="com.soomin.projectboarddevelop.controller.ArticleControllerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="[view][GET] 게시글 리스트 (게시판) 페이지 - 정상 호출" classname="com.soomin.projectboarddevelop.controller.ArticleControllerTest" time="0.116"/>
+  <testcase name="[view][GET] 게시글 해시태그 검색 페이지 - 정상 호출" classname="com.soomin.projectboarddevelop.controller.ArticleControllerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="[view][GET] 게시글 상세 페이지 - 정상 호출" classname="com.soomin.projectboarddevelop.controller.ArticleControllerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[2023-07-12T23:55:27.373+09:00  INFO 71348 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.soomin.projectboarddevelop.controller.ArticleControllerTest]: ArticleControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-07-12T23:55:27.378+09:00  INFO 71348 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.soomin.projectboarddevelop.SoominProjectBoardDevelopApplication for test class com.soomin.projectboarddevelop.controller.ArticleControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.1)
+
+2023-07-12T23:55:27.388+09:00  INFO 71348 --- [    Test worker] c.s.p.controller.ArticleControllerTest   : Starting ArticleControllerTest using Java 17.0.7 with PID 71348 (started by atnp_dev in /Users/atnp_dev/dev/SooMin_BulletinBoard/soomin-project-board-develop)
+2023-07-12T23:55:27.388+09:00 DEBUG 71348 --- [    Test worker] c.s.p.controller.ArticleControllerTest   : Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-12T23:55:27.388+09:00  INFO 71348 --- [    Test worker] c.s.p.controller.ArticleControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2023-07-12T23:55:27.456+09:00 DEBUG 71348 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-12T23:55:27.457+09:00  INFO 71348 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-12T23:55:27.461+09:00 DEBUG 71348 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-07-12T23:55:27.462+09:00 DEBUG 71348 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-07-12T23:55:27.463+09:00 DEBUG 71348 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-12T23:55:27.480+09:00  INFO 71348 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-07-12T23:55:27.480+09:00  INFO 71348 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-07-12T23:55:27.481+09:00  INFO 71348 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-07-12T23:55:27.484+09:00  INFO 71348 --- [    Test worker] c.s.p.controller.ArticleControllerTest   : Started ArticleControllerTest in 0.104 seconds (process running for 4.083)
+2023-07-12T23:55:27.496+09:00 DEBUG 71348 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.soomin.projectboarddevelop.controller.ArticleController#articles(ModelMap)
+2023-07-12T23:55:27.505+09:00 DEBUG 71348 --- [    Test worker] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [*/*]
+2023-07-12T23:55:27.586+09:00  WARN 71348 --- [    Test worker] actStandardFragmentInsertionTagProcessor : [THYMELEAF][Test worker][articles/index] Deprecated unwrapped fragment expression "header :: header" found in template articles/index, line 8, col 13. Please use the complete syntax of fragment expressions instead ("~{header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2023-07-12T23:55:27.592+09:00  WARN 71348 --- [    Test worker] actStandardFragmentInsertionTagProcessor : [THYMELEAF][Test worker][articles/index] Deprecated unwrapped fragment expression "footer :: footer" found in template articles/index, line 57, col 13. Please use the complete syntax of fragment expressions instead ("~{footer :: footer}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
